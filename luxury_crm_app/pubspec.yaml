@@ -1,0 +1,373 @@
+name: luxury_crm
+version: 1.0.0+1
+publish_to: none
+description: Enterprise Luxury CRM System for Restaurant & Hospitality
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  firebase_messaging: ^14.7.10
+  cloud_functions: ^4.6.0
+
+  # State Management
+  flutter_bloc: ^8.1.3
+  provider: ^6.1.1
+
+  # UI Components
+  fl_chart: ^0.66.0
+  syncfusion_flutter_charts: ^24.1.41
+  syncfusion_flutter_datagrid: ^24.1.41
+  data_table_2: ^2.5.10
+  flutter_staggered_grid_view: ^0.7.0
+
+  # Maps & Location
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+
+  # PDF & Documents
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  path_provider: ^2.1.1
+
+  # Notifications
+  flutter_local_notifications: ^16.3.0
+
+  # Calendar
+  table_calendar: ^3.0.9
+
+  # Forms & Validation
+  flutter_form_builder: ^9.1.1
+  form_builder_validators: ^9.1.0
+
+  # Images & Media
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.1
+
+  # Utils
+  intl: ^0.18.1
+  uuid: ^4.3.3
+  shared_preferences: ^2.2.2
+  connectivity_plus: ^5.0.2
+
+  # Signature
+  signature: ^5.4.1
+
+  # Charts & Dashboards
+  flutter_speedometer: ^1.0.0
+  percent_indicator: ^4.2.3
+
+  # Google Integration
+  google_sign_in: ^6.2.1
+  googleapis: ^12.0.0
+  extension_google_sign_in_as_googleapis_auth: ^2.0.12
+
+  # Icons
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.7.0
+  fluttericon: ^2.0.0
+
+  # DateTime picker
+  flutter_datetime_picker_plus: ^2.1.0
+
+  # Multi-select
+  multi_select_flutter: ^4.1.3
+
+  # Search
+  flutter_typeahead: ^5.0.1
+
+  # Animations
+  animations: ^2.0.11
+  flutter_animate: ^4.3.0
+
+  # QR Code
+  qr_flutter: ^4.1.0
+  barcode_scan2: ^4.2.4
+
+  # Share
+  share_plus: ^7.2.2
+
+  # URL Launcher
+  url_launcher: ^6.2.4
+
+  # File Picker
+  file_picker: ^6.1.1
+
+  # Excel/CSV
+  excel: ^4.0.2
+  csv: ^5.1.1
+
+  # HTTP
+  dio: ^5.4.0
+  http: ^1.1.2
+
+  # Local DB (Offline support)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Equatable
+  equatable: ^2.0.5
+
+  # Freezed (for models)
+  freezed_annotation: ^2.4.1
+  json_serializable: ^6.7.1
+
+  # Logger
+  logger: ^2.0.2
+
+  # Permission handler
+  permission_handler: ^11.1.0
+
+  # Device info
+  device_info_plus: ^9.1.2
+
+  # Package info
+  package_info_plus: ^5.0.1
+
+  # Local auth (fingerprint/face)
+  local_auth: ^2.2.0
+
+  # Biometric storage
+  flutter_secure_storage: ^9.0.0
+
+  # Charts
+  graphic: ^2.2.0
+
+  # Timeline
+  timeline_tile: ^2.0.0
+
+  # Stepper
+  im_stepper: ^1.0.4
+
+  # Rating
+  flutter_rating_bar: ^4.0.1
+
+  # Shimmer loading
+  shimmer: ^3.0.0
+
+  # Pull to refresh
+  pull_to_refresh: ^2.0.0
+
+  # Infinite scroll
+  infinite_scroll_pagination: ^4.0.0
+
+  # Filter
+  flutter_filterable_list: ^1.0.0
+
+  # Date range picker
+  flutter_date_range_picker: ^0.0.4
+
+  # Time picker
+  day_night_time_picker: ^1.3.0
+
+  # Color picker
+  flutter_colorpicker: ^1.0.3
+
+  # Toast
+  fluttertoast: ^8.2.4
+
+  # Snackbar
+  awesome_snackbar_content: ^0.1.3
+
+  # Dialog
+  awesome_dialog: ^3.2.0
+
+  # Bottom sheet
+  modal_bottom_sheet: ^3.0.0
+
+  # Expansion tile
+  expansion_tile_group: ^1.2.3
+
+  # Chip
+  flutter_chip_tags: ^3.0.1
+
+  # Tags
+  textfield_tags: ^3.0.1
+
+  # Markdown
+  flutter_markdown: ^0.6.18
+
+  # HTML
+  flutter_html: ^3.0.0-beta.2
+
+  # WebView
+  webview_flutter: ^4.4.2
+
+  # Maps cluster
+  google_maps_cluster_manager: ^3.1.0
+
+  # Location background
+  background_locator_2: ^2.0.6
+
+  # Audio
+  audioplayers: ^5.2.1
+
+  # Video
+  video_player: ^2.8.2
+
+  # Camera
+  camera: ^0.10.5+9
+
+  # Scanner
+  mobile_scanner: ^3.5.5
+
+  # NFC
+  nfc_manager: ^3.4.0
+
+  # Bluetooth
+  flutter_blue_plus: ^1.31.15
+
+  # WiFi
+  wifi_iot: ^0.3.19
+
+  # Sensors
+  sensors_plus: ^4.0.2
+
+  # Battery
+  battery_plus: ^5.0.2
+
+  # Network info
+  network_info_plus: ^4.1.0
+
+  # Screen brightness
+  screen_brightness: ^1.0.0
+
+  # Volume control
+  volume_controller: ^2.0.7
+
+  # Flashlight
+  torch_light: ^1.0.0
+
+  # Vibration
+  vibration: ^1.8.4
+
+  # Clipboard
+  super_clipboard: ^0.8.4
+
+  # Launcher icons
+  flutter_launcher_icons: ^0.13.1
+
+  # Native splash
+  flutter_native_splash: ^2.3.9
+
+  # App review
+  in_app_review: ^2.0.8
+
+  # Rate app
+  rate_my_app: ^2.0.0
+
+  # Store redirect
+  store_redirect: ^2.0.1
+
+  # In-app purchase
+  in_app_purchase: ^3.1.11
+
+  # AdMob
+  google_mobile_ads: ^4.0.0
+
+  # Analytics
+  firebase_analytics: ^10.8.0
+
+  # Crashlytics
+  firebase_crashlytics: ^3.4.9
+
+  # Performance
+  firebase_performance: ^0.9.3+8
+
+  # Remote config
+  firebase_remote_config: ^4.3.8
+
+  # App check
+  firebase_app_check: ^0.2.1+8
+
+  # Dynamic links
+  firebase_dynamic_links: ^5.4.8
+
+  # Invites
+  firebase_invites: ^0.0.1
+
+  # ML Kit
+  google_mlkit_text_recognition: ^0.11.0
+  google_mlkit_barcode_scanning: ^0.10.0
+  google_mlkit_face_detection: ^0.9.0
+  google_mlkit_image_labeling: ^0.10.0
+  google_mlkit_object_detection: ^0.11.0
+  google_mlkit_digital_ink_recognition: ^0.9.0
+  google_mlkit_pose_detection: ^0.10.0
+  google_mlkit_selfie_segmentation: ^0.6.0
+  google_mlkit_language_id: ^0.9.0
+  google_mlkit_translation: ^0.9.0
+  google_mlkit_smart_reply: ^0.9.0
+  google_mlkit_entity_extraction: ^0.11.0
+
+  # Internationalization
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+  freezed: ^2.4.6
+  json_annotation: ^4.8.1
+  hive_generator: ^2.0.1
+  mockito: ^5.4.4
+  bloc_test: ^9.1.5
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/icons/
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Tajawal-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Tajawal-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Tajawal-ExtraBold.ttf
+          weight: 800
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 600
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#1A1A2E"
+  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
+
+flutter_native_splash:
+  color: "#1A1A2E"
+  image: assets/images/splash_logo.png
+  android: true
+  ios: true
+  web: false
+  android_12:
+    image: assets/images/splash_logo_android12.png
+    icon_background_color: "#1A1A2E"
